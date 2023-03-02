@@ -29,6 +29,20 @@ namespace ExemploCoberturaCodigo.Domain.Tests
         }
 
         [Fact]
+        public async Task TupleRetornaFalsoSeIdOrdemCompraNaoForEncontrado()
+        {
+            var usuario = new Usuario
+            {
+                Id = 1,
+                Name = "Bertuzzi",
+                PermissaoAprovar = true
+            };
+
+            var retorno = await _ComprasService.AprovarOrdemCompra(5, usuario);
+            Assert.False(retorno.Item1);
+        }
+
+        [Fact]
         public async Task TupleRetornaFalsoSeUsuarioNaoForFornecido()
         {
             var retorno = await _ComprasService.AprovarOrdemCompra(1, new Usuario());
@@ -49,6 +63,19 @@ namespace ExemploCoberturaCodigo.Domain.Tests
             Assert.False(retorno.Item1);
         }
 
+        //[Fact]
+        //public async Task TupleRetornaFalsoSeIdusuarioForNegativo()
+        //{
+        //    var usuario = new Usuario
+        //    {
+        //        Id = -1,
+        //        Name = "Bertuzzi",
+        //        PermissaoAprovar = true
+        //    };
+
+        //    var retorno = await _ComprasService.AprovarOrdemCompra(1, usuario);
+        //    Assert.False(retorno.Item1);
+        //}
 
     }
 }
