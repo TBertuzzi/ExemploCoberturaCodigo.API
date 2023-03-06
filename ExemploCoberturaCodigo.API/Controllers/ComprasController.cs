@@ -21,7 +21,7 @@ namespace ExemploCoberturaCodigo.API.Controllers
             _ComprasRepository = comprasRepository;
         }
 
-        [HttpPost("InserirOrdemCompra")]
+        [HttpPost("AprovarOrdemCompra")]
         public async Task<IActionResult> AprovarOrdemCompra([FromBody] int idOrdemCompra)
         {
             //Aqui você Poderia Obter o usuario enviado pela API (um JWT Bearer por exemplo)
