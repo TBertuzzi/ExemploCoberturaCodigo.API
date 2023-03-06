@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploCoberturaCodigo.Doma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploCoberturaCodigo.Data", "ExemploCoberturaCodigo.Data\ExemploCoberturaCodigo.Data.csproj", "{CDE413FA-026D-42B6-9D2C-D8BE731E5C51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploCoberturaCodigo.Domain.Tests", "ExemploCoberturaCodigo.Domain.Tests\ExemploCoberturaCodigo.Domain.Tests.csproj", "{AA6619CE-EA3F-46BB-AC85-3210ED7FDF88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploCoberturaCodigo.Domain.Tests", "ExemploCoberturaCodigo.Domain.Tests\ExemploCoberturaCodigo.Domain.Tests.csproj", "{AA6619CE-EA3F-46BB-AC85-3210ED7FDF88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0B8265E2-B5DF-4275-B8C4-86AE21456062}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B147B689-3079-4102-B04A-F2088292BDBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploCoberturaCodigo.API.Tests", "ExemploCoberturaCodigo.API.Tests\ExemploCoberturaCodigo.API.Tests.csproj", "{4E58A987-8504-452F-9C50-4776F1BF0DC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploCoberturaCodigo.API.Tests", "ExemploCoberturaCodigo.API.Tests\ExemploCoberturaCodigo.API.Tests.csproj", "{4E58A987-8504-452F-9C50-4776F1BF0DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploCoberturaCodigo.Domain.Mock.Tests", "ExemploCoberturaCodigo.Domain.Mock.Tests\ExemploCoberturaCodigo.Domain.Mock.Tests.csproj", "{B9EA2EEC-FD6E-4154-B480-F13F5746DDDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{4E58A987-8504-452F-9C50-4776F1BF0DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E58A987-8504-452F-9C50-4776F1BF0DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E58A987-8504-452F-9C50-4776F1BF0DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EA2EEC-FD6E-4154-B480-F13F5746DDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EA2EEC-FD6E-4154-B480-F13F5746DDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EA2EEC-FD6E-4154-B480-F13F5746DDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EA2EEC-FD6E-4154-B480-F13F5746DDDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
