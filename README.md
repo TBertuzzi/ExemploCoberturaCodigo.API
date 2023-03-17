@@ -9,3 +9,5 @@ https://nunit.org/
 Mock:
 
 https://github.com/moq/moq4
+
+Apresentação : https://www.slideshare.net/ThiagoBertuzzi/cobertura-de-cdigo-testes-de-unidade
